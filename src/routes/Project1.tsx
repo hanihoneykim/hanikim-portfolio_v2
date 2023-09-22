@@ -1,9 +1,11 @@
-import { Box, Divider, Flex, Img, Text, VStack } from "@chakra-ui/react";
+import { Box, Divider, Flex, Img, Tab, TabList, TabPanel, TabPanels, Tabs, Text, VStack } from "@chakra-ui/react";
 import Header from "../components/HeaderContact";
 import HeaderProjects from "../components/HeaderProjects";
 import {HiNewspaper} from "react-icons/hi";
 import { Link } from "react-router-dom";
 import { Link as ChakraLink } from '@chakra-ui/react';
+import Project1Tab1 from "../components/Project1Tab1";
+import Project1Tab2 from "../components/Project1Tab2";
 
 
 
@@ -25,7 +27,7 @@ export default function Project1() {
                         <Flex direction={"column"} alignItems={"center"}>
                             <Img mt={10} src="/images/lp2.png" boxSize={32} objectFit='cover' />
                             <Text mt={2} color="black" fontWeight={"700"}>[Music Streaming]</Text>
-                            <Text color="black" fontWeight={"700"}>ICE CREAM</Text>
+                            <Text color="black" fontWeight={"700"}>Palette</Text>
                         </Flex>
                     </Link>
                     
@@ -44,15 +46,26 @@ export default function Project1() {
                             <Box my={4}>
                                 <Text fontSize={20} fontWeight={"700"} color="black">[SNS 서비스]</Text>
                                 <Text fontSize={56} fontWeight={"700"} color="black">CURPAGE</Text>
+                                <Text fontSize={16} fontWeight={"500"} color="black" mb={4}>사진과 글 기반 소셜 네트워크 서비스를 제공합니다.</Text>
                                 <ChakraLink href="https://example.com" target="_blank">
                                     <Text fontSize={20} fontWeight={"700"} color="black">URL :</Text>
                                 </ChakraLink>
                             </Box>
                             <Divider bgColor="black"/>
-                            <Flex>
-                                <Img src="/images/curpage3.png" boxSize={"70%"} objectFit='contain' mr={2} />
-                                <Img src="/images/curpage2.png" boxSize={"70%"} objectFit='contain' />
-                            </Flex>
+                            <Tabs variant='soft-rounded' colorScheme='gray' my={6}>
+                                    <TabList color={"black"}>
+                                        <Tab color={"black"}>소개</Tab>
+                                        <Tab>기획안</Tab>
+                                    </TabList>
+                                    <TabPanels>
+                                        <TabPanel>
+                                            <Project1Tab1 />
+                                        </TabPanel>
+                                        <TabPanel>
+                                            <Project1Tab2 />
+                                        </TabPanel>
+                                    </TabPanels>
+                                </Tabs>
 
                         </VStack>
                     </Box>

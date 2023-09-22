@@ -17,7 +17,7 @@ export default function HeaderContact() {
                         <Text ml={4} fontSize={20} fontWeight={"500"} color="black">About</Text>
                     </HStack>
                 </Link>
-                <Link to="/projects">
+                <Link to="/projects/1">
                     <HStack mt={2} ml={3} w={52} h="12" bgColor={"gray.400"} borderTopRadius={20}>
                         <Icon as={FaCode} fontSize={22} ml={6} color="gray.500"/>
                         <Text ml={4} fontSize={20} fontWeight={"500"} color="black">Projects</Text>

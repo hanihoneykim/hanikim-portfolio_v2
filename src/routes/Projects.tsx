@@ -22,7 +22,7 @@ export default function Projects() {
                         <Flex direction={"column"} alignItems={"center"}>
                             <Img mt={10} src="/images/lp2.png" boxSize={32} objectFit='cover' />
                             <Text mt={2} color="black" fontWeight={"700"}>[Music Streaming]</Text>
-                            <Text color="black" fontWeight={"700"}>ICE CREAM</Text>
+                            <Text color="black" fontWeight={"700"}>Palette</Text>
                         </Flex>
                     </Link>
                     
