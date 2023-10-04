@@ -21,10 +21,10 @@ export default function Contact() {
                     </ChakraLink>
                 </Flex>
                 <Flex bgColor={"#22c998"} borderRadius={20} w={"34rem"} h={16} justifyContent="start" alignItems="center" mt={4}>
-                    <ChakraLink href="https://velog.io/@heeheecording" target="_blank">
+                    <ChakraLink href="https://velog.io/@hanihoneykim" target="_blank">
                         <Flex pl={10} justifyContent="start" alignItems="center">
                             <Img src="/images/velog.jpeg" boxSize={"10%"} objectFit='contain' />
-                            <Text color="white" fontWeight={"700"} fontSize={20} ml={16}>velog.io/@heeheecording</Text>
+                            <Text color="white" fontWeight={"700"} fontSize={20} ml={16}>velog.io/@hanihoneykim</Text>
                         </Flex>
                     </ChakraLink>
                 </Flex>

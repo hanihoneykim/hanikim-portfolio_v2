@@ -1,4 +1,4 @@
-import { Box, Divider, Flex, HStack, Img, Tab, TabList, TabPanel, TabPanels, Tabs, Text, VStack } from "@chakra-ui/react";
+import { Box, Button, Divider, Flex, HStack, Img, Tab, TabList, TabPanel, TabPanels, Tabs, Text, VStack } from "@chakra-ui/react";
 import Header from "../components/HeaderContact";
 import HeaderProjects from "../components/HeaderProjects";
 import {HiNewspaper} from "react-icons/hi";
@@ -46,9 +46,9 @@ export default function Project2() {
                                     <Text fontSize={20} fontWeight={"700"} color="black">[라이브 음원 스트리밍 서비스]</Text>
                                     <Text fontSize={56} fontWeight={"700"} color="black">Palette Live Studio</Text>
                                     <Text fontSize={16} fontWeight={"500"} color="black" mb={4}>아이유의 팔레트 라이브 음원 스트리밍 서비스를 제공합니다.</Text>
-                                    <ChakraLink href="https://example.com" target="_blank">
-                                        <Text fontSize={20} fontWeight={"700"} color="black">URL :</Text>
-                                    </ChakraLink>
+                                    <ChakraLink href="https://palette-studio.fly.dev/" target="_blank">
+                                    <Button bgColor={"rgba(0,0,0,0.6)"} w={96} fontSize={20}>palette-studio.fly.dev</Button>
+                                </ChakraLink>
                                 </Box>
                                 <Divider bgColor="black"/>
 

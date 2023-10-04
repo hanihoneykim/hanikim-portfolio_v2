@@ -1,4 +1,4 @@
-import { Box, Divider, Flex, Img, Tab, TabList, TabPanel, TabPanels, Tabs, Text, VStack } from "@chakra-ui/react";
+import { Box, Button, Divider, Flex, Img, Tab, TabList, TabPanel, TabPanels, Tabs, Text, VStack } from "@chakra-ui/react";
 import Header from "../components/HeaderContact";
 import HeaderProjects from "../components/HeaderProjects";
 import {HiNewspaper} from "react-icons/hi";
@@ -47,8 +47,8 @@ export default function Project1() {
                                 <Text fontSize={20} fontWeight={"700"} color="black">[SNS 서비스]</Text>
                                 <Text fontSize={56} fontWeight={"700"} color="black">CURPAGE</Text>
                                 <Text fontSize={16} fontWeight={"500"} color="black" mb={4}>사진과 글 기반 소셜 네트워크 서비스를 제공합니다.</Text>
-                                <ChakraLink href="https://example.com" target="_blank">
-                                    <Text fontSize={20} fontWeight={"700"} color="black">URL :</Text>
+                                <ChakraLink href="https://curpage.xyz" target="_blank">
+                                    <Button bgColor={"rgba(0,0,0,0.6)"} w={80} fontSize={20}>curpage.xyz</Button>
                                 </ChakraLink>
                             </Box>
                             <Divider bgColor="black"/>
