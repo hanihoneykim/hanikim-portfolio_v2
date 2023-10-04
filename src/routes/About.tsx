@@ -32,7 +32,7 @@ export default function About() {
                                 <Text fontSize={14} fontWeight={700} mb={4}>• 웹스크래퍼 (Python, HTML, CSS) </Text>
                                 <Text fontSize={14} fontWeight={700} mb={4}>• 유튜브 클론 (Node.js, JavaScript) </Text>
                                 <Text fontSize={14} fontWeight={700} mb={4}>• Momentum 클론 (JavaScript, CSS) </Text>
-                                <Text fontSize={14} fontWeight={700} mb={4}>• 카카오톡 클론 (CSS, HTML) </Text>
+                                <Text fontSize={14} fontWeight={700} mb={4}>• 카카오톡 클론 (CSS, HTML)</Text>
 
 
                             </Box>
