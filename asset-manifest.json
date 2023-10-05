@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/hanikim-portfolio_v2/static/js/main.8ddbbc64.js",
+    "main.js": "/hanikim-portfolio_v2/static/js/main.e8daed47.js",
     "index.html": "/hanikim-portfolio_v2/index.html",
-    "main.8ddbbc64.js.map": "/hanikim-portfolio_v2/static/js/main.8ddbbc64.js.map"
+    "main.e8daed47.js.map": "/hanikim-portfolio_v2/static/js/main.e8daed47.js.map"
   },
   "entrypoints": [
-    "static/js/main.8ddbbc64.js"
+    "static/js/main.e8daed47.js"
   ]
 }
