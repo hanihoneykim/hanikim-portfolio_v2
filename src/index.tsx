@@ -11,8 +11,7 @@ import React from "react";
 
 export default function Index(){
     return (
-        <HashRouter basename={process.env.PUBLIC_URL}>
-            <React.StrictMode>
+        <HashRouter basename="/">
             <ChakraProvider theme={theme}>
                 <VStack spacing={0}>
                     <Outlet/>
@@ -26,7 +25,6 @@ export default function Index(){
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
             </ChakraProvider>
-            </React.StrictMode>,
         </HashRouter>
         
         
