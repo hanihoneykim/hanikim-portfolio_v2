@@ -26,7 +26,7 @@ export default function Project2() {
                         <Flex direction={"column"} alignItems={"center"}>
                             <Img mt={10} src="https://hanihoneykim.github.io/hanikim-portfolio_v2/images/lp2.png" boxSize={32} objectFit='cover' />
                             <Text mt={2} color="black" fontWeight={"700"}>[Music Streaming]</Text>
-                            <Text color="black" fontWeight={"700"}>Palette</Text>
+                            <Text color="black" fontWeight={"700"} >Palette</Text>
                         </Flex>
                     </Link>
                     
@@ -47,7 +47,7 @@ export default function Project2() {
                                     <Text fontSize={56} fontWeight={"700"} color="black">Palette Live Studio</Text>
                                     <Text fontSize={16} fontWeight={"500"} color="black" mb={4}>아이유의 팔레트 라이브 음원 스트리밍 서비스를 제공합니다.</Text>
                                     <ChakraLink href="https://palette-studio.fly.dev/" target="_blank">
-                                    <Button bgColor={"rgba(0,0,0,0.6)"} w={96} fontSize={20}>palette-studio.fly.dev</Button>
+                                    <Button bgColor={"rgba(0,0,0,0.6)"} w={96} fontSize={20} color="white">palette-studio.fly.dev</Button>
                                 </ChakraLink>
                                 </Box>
                                 <Divider bgColor="black"/>
