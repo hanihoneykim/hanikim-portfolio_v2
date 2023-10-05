@@ -11,25 +11,19 @@ import React from "react";
 
 export default function App(){
     return (
-        <HashRouter basename={process.env.PUBLIC_URL}>
-            <React.StrictMode>
-            <ChakraProvider theme={theme}>
-                <VStack spacing={0}>
-                    <Outlet/>
-                </VStack>
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/projects" element={<Projects />} />
-                    <Route path="/projects/1" element={<Project1 />} />
-                    <Route path="/projects/2" element={<Project2 />} />
-                    <Route path="/contact" element={<Contact />} />
-                </Routes>
-            </ChakraProvider>
-            </React.StrictMode>,
-        </HashRouter>
-        
-        
-    
+        <>
+        <VStack spacing={0}>
+            <Outlet/>
+        </VStack>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/1" element={<Project1 />} />
+            <Route path="/projects/2" element={<Project2 />} />
+            <Route path="/contact" element={<Contact />} />
+        </Routes>
+        </>
+
     )
-}
+    }

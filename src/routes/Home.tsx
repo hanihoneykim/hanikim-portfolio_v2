@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
     return (
-        <Flex w="100%" h="100vh" justifyContent={"center"} alignItems={"center"}>
+        <Flex w="100%" h="100vh" justifyContent={"center"} alignItems={"center"} bgColor={"blue.900"}>
             <Box h={"34rem"} w={96} borderRadius={50} bgColor={"gray.300"}>
                 <Flex flexDirection={"column"} justifyContent={"center"} alignItems={"center"} mt={6}>
                     <Text fontWeight={"600"} fontSize={30} color="black">Hani Drop</Text>
