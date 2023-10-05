@@ -15,6 +15,7 @@
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
     "framer-motion": "^6.5.1",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^3.11.0",
@@ -27,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,6 +48,10 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
-  }
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@flydotio/dockerfile": "^0.4.10"
+  },
+  "homepage": "https://hanihoneykim.github.io/hanikim-portfolio_v2/"
 }
