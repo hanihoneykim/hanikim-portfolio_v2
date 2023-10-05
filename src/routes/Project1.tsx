@@ -17,7 +17,7 @@ export default function Project1() {
                 <Flex direction={"column"} alignItems={"center"} h="50vh" w={48} mt={10}>
                     <Link to="/projects/1">
                         <Flex direction={"column"} alignItems={"center"}>
-                            <Img src="/images/photo.jpeg" borderRadius='full' boxSize={"120px"} objectFit='cover' />
+                            <Img src="https://hanihoneykim.github.io/hanikim-portfolio_v2/images/photo.jpeg" borderRadius='full' boxSize={"120px"} objectFit='cover' />
                             <Text mt={2} color="black" fontWeight={"700"}>[SNS]</Text>
                             <Text color="black" fontWeight={"700"}>CURPAGE</Text>
                         </Flex>
@@ -25,7 +25,7 @@ export default function Project1() {
                     
                     <Link to="/projects/2">
                         <Flex direction={"column"} alignItems={"center"}>
-                            <Img mt={10} src="/images/lp2.png" boxSize={32} objectFit='cover' />
+                            <Img mt={10} src="https://hanihoneykim.github.io/hanikim-portfolio_v2/images/lp2.png" boxSize={32} objectFit='cover' />
                             <Text mt={2} color="black" fontWeight={"700"}>[Music Streaming]</Text>
                             <Text color="black" fontWeight={"700"}>Palette</Text>
                         </Flex>

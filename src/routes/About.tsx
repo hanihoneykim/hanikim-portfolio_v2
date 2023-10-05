@@ -11,7 +11,7 @@ export default function About() {
                     <Grid h="100%" gap={10} gridTemplateColumns={"1fr 1.5fr 1.5fr"} gridTemplateRows={"1fr 1fr"}>
 
                         <GridItem rowSpan={2}>
-                            <Img mt={40} src="/images/IMG_5987.JPG" borderRadius='full' boxSize='300px' objectFit='cover' />    
+                            <Img mt={40} src="https://hanihoneykim.github.io/hanikim-portfolio_v2/images/IMG_5987.JPG" borderRadius='full' boxSize='300px' objectFit='cover' />    
                         </GridItem>
 
                         <GridItem p={8} bg={"rgba(0,0,0,0.3)"} borderRadius={"20px"}>
@@ -59,14 +59,14 @@ export default function About() {
                         <GridItem p={4} bg={"rgba(0,0,0,0.3)"} borderRadius={"20px"}>
                             <Text fontSize={36} fontWeight={900}  m={4}>💻 Skills</Text>
                             <Flex mt={8} justifyContent={"center"} alignItems={"center"}>
-                                <Img src="/images/python-logo.png" borderRadius='full' boxSize='75px' objectFit='cover' />   
-                                <Img mx={14} src="/images/django_logo.png" borderRadius='full' boxSize='75px' objectFit='cover' />   
-                                <Img src="/images/nodejs_logo.png" borderRadius='full' boxSize='75px' objectFit='cover' />
+                                <Img src="https://hanihoneykim.github.io/hanikim-portfolio_v2/images/python-logo.png" borderRadius='full' boxSize='75px' objectFit='cover' />   
+                                <Img mx={14} src="https://hanihoneykim.github.io/hanikim-portfolio_v2/images/django_logo.png" borderRadius='full' boxSize='75px' objectFit='cover' />   
+                                <Img src="https://hanihoneykim.github.io/hanikim-portfolio_v2/images/nodejs_logo.png" borderRadius='full' boxSize='75px' objectFit='cover' />
                             </Flex>
                             <Flex mt={10} justifyContent={"center"} alignItems={"center"}>
-                                <Img src="/images/html_logo.png" borderRadius='full' boxSize='83px' objectFit='cover' />   
-                                <Img mx={14} src="/images/css_logo.png" borderRadius='full' boxSize='83px' objectFit='cover' />   
-                                <Img src="/images/javascript-logo.png" borderRadius='full' boxSize='75px' objectFit='cover' />      
+                                <Img src="https://hanihoneykim.github.io/hanikim-portfolio_v2/images/html_logo.png" borderRadius='full' boxSize='83px' objectFit='cover' />   
+                                <Img mx={14} src="https://hanihoneykim.github.io/hanikim-portfolio_v2/images/css_logo.png" borderRadius='full' boxSize='83px' objectFit='cover' />   
+                                <Img src="https://hanihoneykim.github.io/hanikim-portfolio_v2/images/javascript-logo.png" borderRadius='full' boxSize='75px' objectFit='cover' />      
                             </Flex>   
                         </GridItem>
                     </Grid>

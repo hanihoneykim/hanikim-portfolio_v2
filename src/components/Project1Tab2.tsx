@@ -9,8 +9,8 @@ export default function Project2Tab2 () {
                 <Text fontWeight={"500"} fontSize={18} color="black" ml={20} mt={2}>• 글과 사진을 활용한 작품활동을 하는 작가 </Text>
                 <Text fontWeight={"500"} fontSize={18} color="black" ml={20} mt={2}>(↓ 사진과 글을 다룬 SNS 사이트가 상이해 Link Tree를 활용하는 작가들) </Text>
                 <Flex justifyContent={"start"}>
-                    <Img src="/images/linktree1.jpg" boxSize={"20%"} objectFit='contain' ml={20} mt={2} />
-                    <Img src="/images/linktree2.jpg" boxSize={"20%"} objectFit='contain' ml={2} mt={2} />
+                    <Img src="https://hanihoneykim.github.io/hanikim-portfolio_v2/images/linktree1.jpg" boxSize={"20%"} objectFit='contain' ml={20} mt={2} />
+                    <Img src="https://hanihoneykim.github.io/hanikim-portfolio_v2/images/linktree2.jpg" boxSize={"20%"} objectFit='contain' ml={2} mt={2} />
                 </Flex>
             </Flex>
             <Flex direction={"column"} justifyContent={"start"} mb={14}>
