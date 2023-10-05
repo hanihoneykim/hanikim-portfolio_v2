@@ -7,7 +7,7 @@ export default function About() {
         <>
             <Box w="100%" h="90vh" bgColor={"gray.300"}>
                 <HeaderAbout />
-                <Box w="100%" h="70vh" pt={14} px={14}>
+                <Box w="100%" h="80vh" pt={14} px={14}>
                     <Grid h="100%" gap={10} gridTemplateColumns={"1fr 1.5fr 1.5fr"} gridTemplateRows={"1fr 1fr"}>
 
                         <GridItem rowSpan={2}>
