@@ -9,7 +9,7 @@ export default function Home() {
                     <Text fontWeight={"600"} fontSize={30} color="black">Hani Drop</Text>
                     <Text mt={4} fontWeight={"900"} fontSize={24} color="black">'항상 성실한 백엔드 개발자'</Text>
                     <Text fontWeight={"900"} fontSize={22} color="black">를 받으시겠습니까?</Text>
-                    <Img mt={4} src="/images/IMG_5986.JPG" objectFit='cover' w={96} h={72} />
+                    <Img mt={4} src="../public/images/IMG_5986.JPG" objectFit='cover' w={96} h={72} />
                 </Flex>
                 <Box bgColor={"rgba(0,0,0,0.2)"} w={"100%"} h={0.5} mt={4} />
                 <Flex justifyContent={"space-between"} alignItems={"center"} px={16} >
